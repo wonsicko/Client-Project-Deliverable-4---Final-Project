@@ -269,12 +269,15 @@ footer p {
 }
 
 footer a {
-    color: var(--primary-sea-green);
+    color: var(--primary-dark-blue);
 }
 
 @media (prefers-color-scheme: dark) {
     footer {
         background-color: var(--darkmode-deep-bg);
+        color: var(--primary-light);
+    }
+    footer a {
         color: var(--primary-light);
     }
     footer a:hover {
